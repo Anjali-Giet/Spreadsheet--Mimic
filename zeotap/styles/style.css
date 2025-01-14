@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #toolbar {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #formula-bar {
+    padding: 10px;
+    background: #fafafa;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #spreadsheet {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 1px;
+    background: #ccc;
+  }
+  
+  .cell {
+    width: 150px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  
